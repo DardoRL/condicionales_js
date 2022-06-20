@@ -44,7 +44,7 @@ else if (numero1==0){
 // Verifique si el numero1 es mayor a 0 y menor a 100
 // Imprima en pantalla si se cumple o no la condición
 
-if (numero1>0 && numero1<100){
+if ((numero1>0) && (numero1<100)){
     alert("El primer numero ingresado es mayor que cero y menor a 100");
 }
 else{
@@ -55,8 +55,8 @@ else{
 // es mayor a - 2
 // Imprima en pantalla si se cumple o no la condición
 
-if (numero1<10 && numero2>-2){
-    alert("El primer numero ingresado es menor que 10 y el segundo numero ingresado es mayor que -2");
+if ((numero1<10) || (numero2>-2)){
+    alert("El primer numero ingresado es menor que 10 ó el segundo numero ingresado es mayor que -2");
 }
 else{
     alert("Los numeros ingresados no cumplen con la condicion");
